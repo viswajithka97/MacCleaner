@@ -1,0 +1,76 @@
+{
+  "families": [
+    {
+      "name": "Genieo",
+      "bundleIds": ["com.genieo.engine", "com.genieoinnovation.Installer", "com.genieoinnovation.macextension"],
+      "pathHints": ["Genieo", "GenieoInstaller", "com.genieo", "InstallGenieo"],
+      "notes": "Adware toolbar / search hijacker."
+    },
+    {
+      "name": "MacKeeper",
+      "bundleIds": ["com.mackeeper.MacKeeper", "com.zeobit.MacKeeper", "com.zeobit.MacKeeper.Helper"],
+      "pathHints": ["MacKeeper", "ZeoBIT", "Mackeeper"],
+      "notes": "Aggressive cleanup / scareware family."
+    },
+    {
+      "name": "Pirrit",
+      "bundleIds": ["com.pirrit", "com.installcore"],
+      "pathHints": ["Pirrit", "InstallCore", "MacPirrit"],
+      "notes": "Adware installer framework."
+    },
+    {
+      "name": "Adload",
+      "bundleIds": ["com.adload", "com.osx.adload"],
+      "pathHints": ["Adload", "AdLoad", "macadload"],
+      "notes": "Dropper / adware loader."
+    },
+    {
+      "name": "Shlayer",
+      "bundleIds": ["com.shlayer", "com.osx.shlayer"],
+      "pathHints": ["Shlayer", "FlashPlayerInstaller", "Player_Install"],
+      "notes": "Fake Flash installer dropper."
+    },
+    {
+      "name": "Bundlore",
+      "bundleIds": ["com.bundlore"],
+      "pathHints": ["Bundlore", "MPlayerX Installer", "Application.app/Contents/MacOS/Application"],
+      "notes": "Adware bundled with fake installers."
+    },
+    {
+      "name": "VSearch",
+      "bundleIds": ["com.vsearch", "com.conduent.vsearch"],
+      "pathHints": ["VSearch", "vsearch", "com.vsearch"],
+      "notes": "Search hijacker / adware."
+    },
+    {
+      "name": "Conduit",
+      "bundleIds": ["com.conduit", "com.conduit.search"],
+      "pathHints": ["Conduit", "SearchProtect", "SearchProtectPlus"],
+      "notes": "Toolbar / search hijacker."
+    },
+    {
+      "name": "SearchMine",
+      "bundleIds": ["com.searchmine", "com.spigot"],
+      "pathHints": ["SearchMine", "Spigot", "SearchMineHelper"],
+      "notes": "Browser hijacker."
+    },
+    {
+      "name": "Advanced Mac Cleaner",
+      "bundleIds": ["com.pcvark.Advanced-Mac-Cleaner", "com.macv.AMC"],
+      "pathHints": ["Advanced Mac Cleaner", "Mac Cleaner.app", "PCVark"],
+      "notes": "PUA / scareware cleaner."
+    },
+    {
+      "name": "MacOptimizer",
+      "bundleIds": ["com.macoptimizer"],
+      "pathHints": ["MacOptimizer", "Mac Optimizer"],
+      "notes": "PUA optimizer."
+    },
+    {
+      "name": "ImNub",
+      "bundleIds": ["com.imnub"],
+      "pathHints": ["ImNub", "MacDownloader"],
+      "notes": "Adware downloader."
+    }
+  ]
+}

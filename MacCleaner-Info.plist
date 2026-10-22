@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Merged with the keys Xcode generates (GENERATE_INFOPLIST_FILE = YES). -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>MacCleaner looks for visually similar photos in your Photos library so you can remove duplicates. Photos are analyzed on this Mac only.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>MacCleaner uses Apple Events to manage login items (System Events), empty Mail's trash, and run administrator commands you approve.</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>MacCleaner scans your Desktop for large, old and duplicate files.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>MacCleaner scans your Documents for large, old and duplicate files.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>MacCleaner scans your Downloads for large, old and duplicate files, and saves app updates there.</string>
+	<key>NSRemovableVolumesUsageDescription</key>
+	<string>MacCleaner can scan and empty the Trash on external drives.</string>
+	<key>NSNetworkVolumesUsageDescription</key>
+	<string>MacCleaner can scan folders on network drives you choose.</string>
+</dict>
+</plist>

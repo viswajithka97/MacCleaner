@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>MacCleaner</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>MacCleaner uses Apple Events to run administrator maintenance commands, quit browsers safely, and empty Mail trash using the official Mail AppleScript interface.</string>
+	<key>NSSystemAdministrationUsageDescription</key>
+	<string>MacCleaner needs administrator privileges to flush DNS, run periodic scripts, inspect system logs, manage Wi-Fi profiles, and perform other maintenance tasks you explicitly request.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>MacCleaner reads your Photos library only to find visually similar photos and to show Recently Deleted size. Nothing is deleted without your confirmation, and deletions use PhotoKit.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>MacCleaner needs write access so you can confirm deletion of similar photos or Recently Deleted items through PhotoKit.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>MacCleaner can scan Downloads when you choose that folder in Space Lens, Large &amp; Old Files, or Duplicates.</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>MacCleaner can scan Desktop when you choose that folder in Space Lens, Large &amp; Old Files, or Duplicates.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>MacCleaner can scan Documents when you choose that folder in Space Lens, Large &amp; Old Files, or Duplicates.</string>
+	<key>NSRemovableVolumesUsageDescription</key>
+	<string>MacCleaner looks for Trash folders on mounted volumes so you can empty them.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>MacCleaner contacts appcast URLs and the App Store lookup API to check for application updates.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>SUEnableAutomaticChecks</key>
+	<false/>
+</dict>
+</plist>

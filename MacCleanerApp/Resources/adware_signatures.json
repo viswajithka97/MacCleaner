@@ -1,0 +1,129 @@
+{
+  "about": "Starter list of common macOS adware / potentially unwanted program families, compiled from public removal guides. Matching is heuristic: 'paths' are checked for existence, 'bundleIds' are compared with apps and extensions, 'nameHints' are lowercase substrings matched against app names, launchd labels, file names and browser extension names. Edit freely.",
+  "families": [
+    {
+      "name": "Genieo",
+      "description": "Search hijacker that installs a browser extension and changes your homepage.",
+      "bundleIds": ["com.genieo.engine", "com.genieo.completer.download", "com.genieoinnovation.installer", "com.genieoinnovation.macextension"],
+      "nameHints": ["genieo", "installmac"],
+      "paths": [
+        "~/Library/LaunchAgents/com.genieo.completer.download.plist",
+        "~/Library/LaunchAgents/com.genieo.completer.update.plist",
+        "~/Library/LaunchAgents/com.genieo.engine.plist",
+        "/Library/LaunchAgents/com.genieoinnovation.macextension.plist",
+        "/Library/LaunchDaemons/com.genieoinnovation.macextension.client.plist",
+        "/Library/PrivilegedHelperTools/com.genieoinnovation.macextension.client",
+        "/Applications/Genieo.app",
+        "/Applications/Uninstall Genieo.app",
+        "/Applications/InstallMac.app",
+        "~/Library/Application Support/com.genieoinnovation.Installer",
+        "~/Library/Application Support/Genieo",
+        "/Library/Frameworks/GenieoExtra.framework"
+      ]
+    },
+    {
+      "name": "MacKeeper",
+      "description": "Aggressively marketed 'cleaner' that has been widely reported as scareware.",
+      "bundleIds": ["com.mackeeper.mackeeper", "com.mackeeper.mackeeper.helper", "com.zeobit.mackeeper", "com.zeobit.mackeeper.helper"],
+      "nameHints": ["mackeeper", "zeobit"],
+      "paths": [
+        "/Applications/MacKeeper.app",
+        "~/Library/Application Support/MacKeeper Helper",
+        "~/Library/LaunchAgents/com.mackeeper.MacKeeper.Helper.plist",
+        "~/Library/Preferences/com.mackeeper.MacKeeper.plist",
+        "~/Library/Preferences/com.mackeeper.MacKeeper.Helper.plist",
+        "~/Library/Caches/com.mackeeper.MacKeeper"
+      ]
+    },
+    {
+      "name": "Pirrit",
+      "description": "Adware that injects ads into web pages, often through a proxy or launch agent.",
+      "bundleIds": ["com.pirrit"],
+      "nameHints": ["pirrit"],
+      "paths": []
+    },
+    {
+      "name": "Adload",
+      "description": "Large adware family that installs randomly named launch agents running from hidden folders in Application Support. Many variants are caught by the hidden-location heuristic rather than by name.",
+      "bundleIds": [],
+      "nameHints": ["adload"],
+      "paths": []
+    },
+    {
+      "name": "Shlayer",
+      "description": "Trojan downloader usually disguised as a fake Flash Player installer; drops other adware such as Bundlore.",
+      "bundleIds": [],
+      "nameHints": ["shlayer"],
+      "paths": []
+    },
+    {
+      "name": "Bundlore",
+      "description": "Adware bundler that installs search-hijacking browser extensions.",
+      "bundleIds": [],
+      "nameHints": ["bundlore", "searchbaron", "search baron"],
+      "paths": []
+    },
+    {
+      "name": "VSearch (Downlite)",
+      "description": "Injects ads into web pages via a system framework and a helper named Jack.",
+      "bundleIds": ["com.vsearch.agent", "com.vsearch.daemon", "com.vsearch.helper"],
+      "nameHints": ["vsearch", "downlite"],
+      "paths": [
+        "/Library/LaunchAgents/com.vsearch.agent.plist",
+        "/Library/LaunchDaemons/com.vsearch.daemon.plist",
+        "/Library/LaunchDaemons/com.vsearch.helper.plist",
+        "/Library/LaunchDaemons/Jack.plist",
+        "/Library/PrivilegedHelperTools/Jack",
+        "/Library/Application Support/VSearch"
+      ]
+    },
+    {
+      "name": "Conduit (Trovi)",
+      "description": "Browser toolbar and search hijacker.",
+      "bundleIds": [],
+      "nameHints": ["conduit", "trovi", "ctloader"],
+      "paths": [
+        "/Library/InputManagers/CTLoader.bundle",
+        "/Library/Application Support/Conduit",
+        "~/Library/Application Support/Conduit",
+        "/Library/Internet Plug-Ins/ConduitNPAPIPlugin.plugin",
+        "/Library/Internet Plug-Ins/TroviNPAPIPlugin.plugin"
+      ]
+    },
+    {
+      "name": "SearchMine",
+      "description": "Browser hijacker that redirects searches through search-mine.net.",
+      "bundleIds": ["com.searchmine"],
+      "nameHints": ["searchmine", "search-mine", "search mine"],
+      "paths": []
+    },
+    {
+      "name": "Crossrider",
+      "description": "Adware framework that installs browser extensions and changes the homepage.",
+      "bundleIds": [],
+      "nameHints": ["crossrider"],
+      "paths": []
+    },
+    {
+      "name": "InstallCore",
+      "description": "Adware installer bundling unwanted programs with free software.",
+      "bundleIds": ["com.installcore"],
+      "nameHints": ["installcore"],
+      "paths": []
+    },
+    {
+      "name": "Spigot / Searchme",
+      "description": "Adware that changes browser search settings.",
+      "bundleIds": ["com.spigot"],
+      "nameHints": ["spigot", "searchme"],
+      "paths": []
+    },
+    {
+      "name": "Advanced Mac Cleaner / Mac Auto Fixer",
+      "description": "Potentially unwanted 'optimizer' apps that show exaggerated problems to sell a license.",
+      "bundleIds": [],
+      "nameHints": ["advanced mac cleaner", "advancedmaccleaner", "mac auto fixer", "macautofixer", "mac tonic", "mactonic"],
+      "paths": []
+    }
+  ]
+}
